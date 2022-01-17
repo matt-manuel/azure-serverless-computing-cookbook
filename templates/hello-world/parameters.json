@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "a5259ef1-d736-482e-a447-308c22c09ed5"
+        },
+        "name": {
+            "value": "hello-world-mamanuel"
+        },
+        "location": {
+            "value": "Canada Central"
+        },
+        "hostingPlanName": {
+            "value": "ASP-serverlesscookbook-afd0"
+        },
+        "serverFarmResourceGroup": {
+            "value": "serverless-cookbook"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "storageAccountName": {
+            "value": "storageaccountservead83"
+        },
+        "sku": {
+            "value": "Dynamic"
+        },
+        "skuCode": {
+            "value": "Y1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "use32BitWorkerProcess": {
+            "value": true
+        },
+        "netFrameworkVersion": {
+            "value": "v6.0"
+        }
+    }
+}
